@@ -1,6 +1,6 @@
 IMDb Clone App
 
-This project is a mini IMDb clone app built using React, axios, and React Router. The app allows users to search for movies using the OMDB API, view movie details, and add/remove movies from their favorites list. The favorites list is persistent across browser refreshes and closures.
+This project is a mini IMDb clone app built using React, axios. The app allows users to search for movies using the OMDB API, view movie details, and add/remove movies from their favorites list. The favorites list is persistent across browser refreshes and closures.
 
 Features
 
