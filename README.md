@@ -433,7 +433,9 @@ strong {
 
 ScreenShots
 ![Home Page](https://github.com/user-attachments/assets/5f3e5d6c-fe50-4a70-bea9-24bee75afc36)
+
 ![Movie Page](https://github.com/user-attachments/assets/5022f999-2796-4a2d-a265-b98e129f4ba7)
+
 ![Favorite Page](https://github.com/user-attachments/assets/46dd4c62-81aa-460c-b2df-4aa80fcf4dab)
 
 License
