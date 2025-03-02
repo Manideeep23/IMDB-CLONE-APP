@@ -97,7 +97,7 @@ const App = () => {
         </div>
       ) : (
         <>
-          <h1 className="title">IMDb Clone</h1>
+          <h1 className="title">IMDB Clone</h1>
           <div className="search-box">
             <input
               type="text"
