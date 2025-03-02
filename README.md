@@ -438,5 +438,8 @@ ScreenShots
 
 ![Favorite Page](https://github.com/user-attachments/assets/46dd4c62-81aa-460c-b2df-4aa80fcf4dab)
 
+![Full Page](https://github.com/user-attachments/assets/cd600be8-1e4d-498d-b6af-563575e2de02)
+
+
 License
 - This project is licensed under the MIT License. See the LICENSE file for more details.
