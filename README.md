@@ -1,36 +1,46 @@
-## React
+IMDb Clone App
 
-This is a simple React application. This application serves as a basic template for a react applications.  
-This project is bootstrapped with [Vite](https://vitejs.dev/guide/).
+This project is a mini IMDb clone app built using React, axios, and React Router. The app allows users to search for movies using the OMDB API, view movie details, and add/remove movies from their favorites list. The favorites list is persistent across browser refreshes and closures.
 
-## How to run
+Features
 
-1. Before running the application, make sure all dependencies are installed. To install dependencies, run following command in terminal:
-   ```sh
-   npm install
-   ```
+- **Search Movies**: Search for movies by title using the OMDB API.
+- **View Movie Details**: Click on a movie to view detailed information, including the poster, year, genre, director, actors, IMDb rating, and plot.
+- **Favorites List**: Add and remove movies from the favorites list. The favorites list is stored in `localStorage` to persist across browser refreshes and closures.
 
-2. Once dependencies are installed, run the following command to start the application:
-   ```sh
-   npm run dev
-   ```
+Technologies Used
 
-3. Refresh the URL in simple browser to see the output. As shown below 
-   ![](https://static.onecompiler.com/images/posts/3zzkbysj7/studio-react-vite-reload.png)
+- **React**: A JavaScript library for building user interfaces.
+- **axios**: A promise-based HTTP client for making API requests.
+- **OMDB API**: An API for accessing movie information.
+
+Getting Started
+
+To get started with the project, follow these steps:
+
+Prerequisites
+
+- Node.js and npm (Node Package Manager) installed on your machine.
+
+Dependencies
+
+- npm install
+- REACT_APP_OMDB_API_KEY=your_omdb_api_key
+- npm start
+
+Usage
+- Search for Movies: Enter a movie title in the search box and click the "Search" button to fetch movies from the OMDB API.
+- View Movie Details: Click on a movie poster to view detailed information about the movie.
+- Add to Favorites: Click the "Add to Favorites" button to add a movie to the favorites list.
+- Remove from Favorites: Click the "Remove from Favorites" button to remove a movie from the favorites list.
+- View Favorites: Click the "Favorites" link in the navigation bar to view all the movies added to the favorites list.
+
+ScreenShots
 
 
-## FAQs & Debugging
 
- ### 1. I do not see browser in my workspace
- Studio will automatically open the app in a new browser tab. If not, you can use the following steps to open the simple browser 
 
-1. From VS Code command pallette(`Ctrl/Cmd + Shift + P`), run **Studio Manager: SimpleBrowser Default URL** command. This will open the app in a new browser tab.
 
-2. Your app runs on hosted env which can be accessed using host id, port provided in file **.vsocde/.studio/studio-env.json**. Use values to create the URL as follows:
-   `https://<STUDIO_HOST_ID>-3000.ocws.app`
 
- ### 2. Getting `vite: not found` error
- This means node_modules are missing in your workspace, please refer the 'How to run' section and make sure you have followed the steps in sequence
-
- ### 3. Can I use create-react-app instead Vite?
- Yes, you can use create-react-app instead Vite, the default workspace is loaded with Vite setup, you can remove the Vite dependencies, add create-react-app dependencies and update the scripts to start using create-react-app.
+License
+This project is licensed under the MIT License. See the LICENSE file for more details.
